@@ -1,0 +1,284 @@
+[
+  {
+    "title"    : "根路径",
+    "path"     : "/",
+    "action"   : "a",
+    "function" : "GET:FindDesc;POST:FindDesc"
+  },
+  {
+    "title"    : "文章详情",
+    "path"     : "/V3/Article/findDesc",
+    "action"   : "a",
+    "function" : "GET:FindDesc;POST:FindDesc"
+  },
+  {
+    "title"    : "文章详情(新)",
+    "path"     : "/V3/Article/details",
+    "action"   : "a",
+    "function" : "GET:FindDesc;POST:FindDesc"
+  },
+  {
+    "title"    : "文章推荐",
+    "path"     : "/V3/Article/findRand",
+    "action"   : "a",
+    "function" : "GET:FindDesc;POST:FindDesc"
+  },
+  {
+    "title"    : "文章标签",
+    "path"     : "/V3/Article/findParams",
+    "action"   : "a",
+    "function" : "GET:FindDesc;POST:FindDesc"
+  },
+  {
+    "title"    : "文章段落",
+    "path"     : "/V3/Article/findPends",
+    "action"   : "a",
+    "function" : "GET:FindDesc;POST:FindDesc"
+  },
+  {
+    "title"    : "视频TOKEN",
+    "path"     : "/upload/getVideoToken",
+    "action"   : "b",
+    "function" : "GET:GetVideoToken;POST:GetVideoToken"
+  },
+  {
+    "title"    : "图片TOKEN",
+    "path"     : "/upload/getImageToken",
+    "action"   : "b",
+    "function" : "GET:GetImageToken;POST:GetImageToken"
+  },
+  {
+    "title"    : "封面TOKEN",
+    "path"     : "/upload/getCoverToken",
+    "action"   : "b",
+    "function" : "GET:GetCoverToken;POST:GetCoverToken"
+  },
+  {
+    "title"    : "话题推荐",
+    "path"     : "/V3/Curvature/topicShow",
+    "action"   : "c",
+    "function" : "GET:TopicShow;POST:TopicShow"
+  },
+  {
+    "title"    : "话题精选",
+    "path"     : "/V3/Curvature/topicChoice",
+    "action"   : "c",
+    "function" : "GET:TopicChoice;POST:TopicChoice"
+  },
+  {
+    "title"    : "话题评论",
+    "path"     : "/V3/Curvature/topicComment",
+    "action"   : "c",
+    "function" : "GET:CommentList;POST:CommentList"
+  },
+  {
+    "title"    : "专栏列表",
+    "path"     : "/V2/Column/getColumnList",
+    "action"   : "e",
+    "function" : "GET:GetLists;POST:GetLists"
+  },
+  {
+    "title"    : "专栏详情",
+    "path"     : "/V2/Column/getColumnDesc",
+    "action"   : "e",
+    "function" : "GET:GetDesc;POST:GetDesc"
+  },
+  {
+    "title"    : "用户专栏",
+    "path"     : "/V2/Column/getUserColumnList",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "关注页面",
+    "path"     : "/V3/Followed/findList",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "关注页面(新)",
+    "path"     : "/V3/Followed/findListAll",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "沉浸页面",
+    "path"     : "/V3/Curvature/immerse",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "推荐页面",
+    "path"     : "/V3/Curvature/recommend",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "发现页面",
+    "path"     : "/V3/Curvature/discover",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "搜索页面",
+    "path"     : "/V3/Curvature/serach",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "小马圈",
+    "path"     : "/V3/Curvature/XMCircle",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "小马圈活动",
+    "path"     : "/V3/Curvature/XMCircleActivity",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "主页分类",
+    "path"     : "/V3/Tab/findTab",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "分类数据",
+    "path"     : "/V3/Tab/getTabList",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "视频分类数据",
+    "path"     : "/V3/Tab/getTabVideoList",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "视频分类",
+    "path"     : "/V3/Tab/getVideoTab",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "兴趣分类",
+    "path"     : "/V3/Tab/findInterest",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "分类新闻",
+    "path"     : "/V3/Tab/tabMini",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "点赞用户列表",
+    "path"     : "/V3/Curvature/getThumbUsers",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "文章点赞",
+    "path"     : "/V3/Article/findThumbs",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "文章点赞",
+    "path"     : "/V3/Article/findThumbs",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "主题点赞",
+    "path"     : "/V3/Theme/findThumbs",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "文章点赞",
+    "path"     : "/V3/Article/findThumbs",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "视频评论",
+    "path"     : "/V2/Video/getNewComments",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "主题评论",
+    "path"     : "/V3/Theme/findComments",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "文章评论",
+    "path"     : "/V3/Article/findComments",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "文章收藏",
+    "path"     : "/V3/Article/findCollections",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "主题收藏",
+    "path"     : "/V3/Theme/findCollection",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "评论点赞用户",
+    "path"     : "/V3/Theme/findCommentUsers",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "主题分享用户",
+    "path"     : "/V3/Theme/findShareUsers",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "我的粉丝|关注",
+    "path"     : "J_member/userFollowList",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "活动排行",
+    "path"     : "/V3/Circle/activityAndRank",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "活动列表",
+    "path"     : "/V3/Circle/activityList",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "圈友秀秀",
+    "path"     : "/V3/Circle/memberShow",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "活动视频",
+    "path"     : "/V3/Circle/activityVideoList",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  },
+  {
+    "title"    : "是否加入活动",
+    "path"     : "/V3/Circle/checkPartakeIn",
+    "action"   : "e",
+    "function" : "GET:GetUsers;POST:GetUsers"
+  }
+]
